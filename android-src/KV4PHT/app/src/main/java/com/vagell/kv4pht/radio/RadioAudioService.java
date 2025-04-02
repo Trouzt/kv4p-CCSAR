@@ -189,7 +189,7 @@ public class RadioAudioService extends Service {
     // Radio params and related settings
     private static final float VHF_MIN_FREQ = 134.0f; // SA818U lower limit, in MHz
     private static float min2mTxFreq = 144.0f; // US 2m band lower limit, in MHz (will be overwritten by user setting)
-    private static float max2mTxFreq = 148.0f; // US 2m band upper limit, in MHz (will be overwritten by user setting)
+    private static float max2mTxFreq = 160.0f; // US 2m band upper limit, in MHz (Made Change for Sar will be overwritten by user setting)
     private static final float VHF_MAX_FREQ = 174.0f; // SA818U upper limit, in MHz
 
     private static final float UHF_MIN_FREQ = 400.0f; // SA818U lower limit, in MHz
